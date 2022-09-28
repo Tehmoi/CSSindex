@@ -1,0 +1,208 @@
+/* comments inbetween these*/
+a:hover{
+    color: magenta;
+    
+}
+a{
+    color: #0037ff;
+    text-decoration: none;
+}
+body{
+    /*background-color: #97D2EC;*/
+    color: #40514e;
+    background-color: #adede6;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',Helvetica,Arial,  sans-serif;
+}
+p{
+    line-height: 2;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.border {
+    border-radius: 100%;
+}
+.btn {
+    background: #03c6e8;
+    background-image: -webkit-linear-gradient(top, #03c6e8, #2980b9);
+    background-image: -moz-linear-gradient(top, #03c6e8, #2980b9);
+    background-image: -ms-linear-gradient(top, #03c6e8, #2980b9);
+    background-image: -o-linear-gradient(top, #03c6e8, #2980b9);
+    background-image: linear-gradient(to bottom, #03c6e8, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Georgia;
+    color: #ffffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+.top-cloud{
+    position: absolute;
+    top: 20px;
+    right: 320px;
+}
+.bot-cloud{
+    position: absolute;
+    left: 150px;
+    bottom: 250px;
+}
+/* Headers and rows section */ 
+#heading {
+    color: rgb(3, 51, 3);
+}
+h1{
+    color: #58574b;
+    line-height: 2;
+    margin-top: 0 ;
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 572%; /*this size is due to the measurment of the capital M. Its 16px, meaning 100% size is, M.
+    this asks for ^ 5.72 x 16px(100%)*/
+    padding-top: 30px;
+
+}
+h2{    
+    color: #58574b;
+    font-size: 2.5rem ; /*challenge given make the h2, maybe a class later if needed. to 90px font size using rem
+    our base is 16 so 90/16= xrem*/
+    font-weight: normal;
+    padding-bottom: 10px ;
+}
+h3{
+    color: #11999E;
+    text-align: center;
+    font-family: 'monstserrat';
+}
+hr{
+    border-color: #fffad6; 
+    border-style: none;
+    border-top-style: ridge;
+    border-width: 10px;
+    color: bisque;
+    margin: 100px auto;   
+    /* if desiring to center an element that already has a width, it must be explicitly positioned.
+   do this by using margin: 0 auto 0 auto ;(top right bottom left, the autos force it center/) */
+   
+    width: 13%;
+}
+/*whenever we hover over a hyperlink. the "hover" pseudoclass will change the color of our text
+this is envoked with a :(PseudoclassName)*/
+
+
+/*img{
+    background-color: chartreuse;
+}class selectors: when making multiple images with different attributes instead of using a general
+img selector through css you implement a class ="" attribute to specify what image gets what property
+ here. so when calling them in CSS you write .(classname) { attribute: value;}*. CLASS SELECTORS CAN
+ BE USED ANYWHERE IN WHERE THE ELEMENTS HAVE THE SAME ATTRIBUTES. in this case images */
+
+
+/*id selectors: make the id name in html code (here referencing the h1 property) and call it here
+with a '#' rest is same CSS code* The id selector can only be used in ONE place in the code. */
+
+
+/*a property like position:fixed; can be used to have an element remain in a specific part of the screen
+even whil scrolling through the page. like its always watching you.*/ 
+
+/* Containers/skillrow section */
+.topcontainer{
+    background-color: slategray;
+    border: 10px; 
+    border-color: black;
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+}
+.midcontainer{
+    background-color: rgb(255, 242, 126);
+    border: 20px; 
+    border-color: black;
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+}
+.botcontainer{
+    background-color: rgb(233, 65, 255);
+    border: 10px; 
+    border-color: black;
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+}
+.contact-paragraph{
+    padding: 30px;
+    width: 30%;
+    margin: 40px auto 40px;
+}
+.contact-me{
+    margin: auto;
+    
+}
+.container{
+    background-color: #bff5f5;
+}
+.middle-container{
+    padding-top: 100px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 30px;
+    margin-bottom: auto;
+    padding-top: 40px;
+    line-height: 3;
+}
+.copyright-paragraph{
+    color: #EAF6F6;
+    margin-bottom: auto;
+    padding-bottom: 40px;
+}
+.skillbg{
+    background-color: #97D2EC;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    
+}
+.pythonimg{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.python-description{
+    clear: left;
+}
+.SQLimg{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.linuximg{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.footer-link{
+    margin-left: 30px;
+}
